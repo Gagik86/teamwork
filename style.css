@@ -29,7 +29,8 @@
   right: 510px;
   top: 100px;
   z-index: 4;
-  transition: opacity 0.3s ease;
+
+  
 }
 
 .popupHeaderDiv {
@@ -109,13 +110,13 @@
 
 h1 {
   font-size: 60px;
-  color: white;
+  color:greenyellow;
   letter-spacing: 4px;
 }
 
 h2 {
   font-size: 60px;
-  color: white;
+  color: greenyellow;
   letter-spacing: 4px;
 }
 
