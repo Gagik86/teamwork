@@ -1,5 +1,12 @@
 let pause = document.getElementById("pause");
 let video = document.getElementById("video");
+let click = document.getElementById("click")
+let emailContainer = document.getElementById("email-container");
+click.addEventListener("click", func);
+
+function func() {
+    open.emailContainer
+}
 
 
 function boo() {
