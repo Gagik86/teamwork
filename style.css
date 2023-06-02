@@ -18,24 +18,40 @@
   filter: brightness(30%);
 }
 
+@keyframes example{
+  from{top: 0px;}
+  to{top: 200px;}
+}
 .popup {
+  
   display: flex;
   flex-direction: column;
-  background-color: white;
+  background-color: rgb(249, 244, 244);
   position: fixed;
   width: 400px;
   height: 240px;
   border-radius: 8px;
-  right: 510px;
-  top: 100px;
-  z-index: 4;
-  transition: opacity 0.3s ease;
+  right: 560px;
+  top: 80px;
+  animation-name: example;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  
+
+
 }
+
+
 
 .popupHeaderDiv {
   display: flex;
   justify-content: space-between;
 }
+  
+
+  
+
+
 
 .join {
   width: 375px;
@@ -53,6 +69,7 @@
   font-size: 18px;
   font-family: sans-serif;
   margin-bottom: 0px;
+ 
 }
 
 .xButton {
@@ -117,6 +134,7 @@ h2 {
   font-size: 60px;
   color: white;
   letter-spacing: 4px;
+  padding-top: 100px;
 }
 
 .click{
@@ -130,9 +148,16 @@ h2 {
   box-shadow: 5px 10px 10px 3px;
   transition-duration: 1s;
   position: absolute;
-  left: 660px;
+  left: 630px;
   top: 130px;
+  transition: width 2s;
+ 
 }
+.click:hover{
+  width: 300px;
+}
+
+
 
 .click:hover{
   background-color:rgb(17, 18, 18);
